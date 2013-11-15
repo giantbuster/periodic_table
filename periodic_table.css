@@ -1,0 +1,199 @@
+*{
+	font-family: "Arial", Geneva, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+p{
+	font-size: 10pt;
+	color: #C91A0D;
+}
+
+.container{
+	width: 1024px;
+	margin: ;
+	background: #EAEAEA;
+}
+
+/*borders*/
+
+.border .sidebar{
+	width: 55px;
+	height: 443px;
+	/*background: gray;*/
+	float: left;
+}
+
+.border .header{
+	height: 44px;
+	width: 955px;
+	/*background: rgba(0,255,255, 0.50);*/
+	float: left;
+}
+
+.header .left{
+	width: 103px;
+	height: inherit;
+	/*background: rgba(255,255,255, 0.40);*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.header .divide{
+	width: 20px;
+	height: inherit;
+	/*background: rgba(255,255,255, 0.40);*/
+	display: inline-block;
+}
+
+.header .right{
+	width: 820px;
+	height: inherit;
+	/*background: rgba(255,0,255, 0.30);*/
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tables .divide{
+	width: 20px;
+	height: 114px;
+	/*background: lightblue;*/
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.tables .top{
+	height: 445px;
+	/*background: salmon;*/
+}
+
+.label{
+	width: 47px;
+	height: 57px;
+	display: inline-block;
+	/*background: gray;*/
+}
+
+.label p{
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+/*container*/
+
+
+.blue-elements{
+	width: 102px;
+	height: 400px;
+	/*background: blue;*/
+}
+
+.red-elements{
+	width: 510px;
+	height: 228px;
+	/*background: red;*/
+}
+
+.yellow-elements{
+	width: 306px;
+	height: 399px;
+	margin-left: -4px;
+	/*background: yellow;*/
+}
+
+.green-elements{
+	width: 715px;
+	height: 115px;
+	/*background: lightgreen;*/
+	vertical-align: bottom;
+}
+
+.tables .element-block{
+	display: inline-block;
+}
+
+.element{
+	width: 47px;
+	height: 53px;
+	border: 1px solid;
+	text-align: center;
+	/*background: beige;*/
+	float: left;
+	margin: 1px;
+}
+
+.element h2, .element h5{
+	line-height: 0px;
+	padding: 9px;
+}
+
+.element h5{
+	font-size: 8pt;
+	font-weight: normal;
+}
+
+.element h2{
+	font-size: 14pt;
+	color: #000F8B;
+}
+
+.blue-elements .element{
+	background: #488BF9;
+	border-color: #1E5586;
+}
+
+.red-elements .element{
+	background: #FD8386;
+	border-color: #C34E52;
+}
+
+.yellow-elements .element{
+	background: #FEBF2B;
+	border-color: #C4851F;
+}
+
+.green-elements .element{
+	background: #19C330;
+	border-color: #11881C;
+}
+
+.element-block .blank{
+	background: none;
+	border: none;
+	padding: 1px;
+}
+
+.tables .divide{
+	vertical-align: bottom;
+	height: 114px;
+}
+
+
+/* bottom */
+
+
+.bottom .legend{
+	margin-top: 30px;
+	width: 155px;
+	height: 120px;
+	display: inline-block;
+}
+
+.legend .legend-labels{
+	width: 160px;
+	display: inline-block;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+.divide .legend-labels{
+	text-align: center;
+	margin: 20px 0px 37px 0px;
+}
+
+.bottom .divide{
+	width: 22px;
+	height: 114px;
+	display: inline-block;
+}
